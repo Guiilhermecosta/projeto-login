@@ -29,6 +29,11 @@ Grandes telas: acima de 1200px
         float: right;/*formulario a esquerda*/
         width: 70%;
     }
+
+    div.campo > input {
+        width: calc(100% - 45px);
+        transform: translateY(-13px);
+    } 
 }
 
 @media screen and (min-width: 992px) {/*Desktop*/
@@ -56,4 +61,8 @@ Grandes telas: acima de 1200px
      div#formulario > p {
         margin: 20px 0px;
      }
+     div.campo > input {
+        width: calc(100% - 45px);
+        transform: translateY(-13px);
+    } 
 }

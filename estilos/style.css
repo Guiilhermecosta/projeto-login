@@ -91,7 +91,7 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-13px);/*Tranformação de animação sempre na ultima linha*/
+    transform: translateY(-12px);/*Tranformação de animação sempre na ultima linha*/
 } 
 
 div.campo > input:focus-within {
